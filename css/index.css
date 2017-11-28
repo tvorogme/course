@@ -78,7 +78,11 @@ p {
     font-weight: 700;
 }
 
-.camp_autumn_image .notification {
+.start_course_image .notification {
+    background-color: grey;
+}
+
+.ml_course_image .notification {
     background-color: grey;
 }
 
@@ -91,7 +95,11 @@ p {
     color: rgb(67, 180, 152);
 }
 
-.camp_autumn_image:hover .see-more {
+.start_course_image:hover .see-more {
+    color: #613D8D;
+}
+
+.ml_course_image:hover .see-more {
     color: #613D8D;
 }
 
@@ -117,8 +125,14 @@ a {
         border-left: 0;
     }
 
-    .camp_autumn_image .box-left {
-        background: url('../img/camp_autumn.jpg');
+    .start_course_image .box-left {
+        background: url('../img/start_course.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .ml_course_image .box-left {
+        background: url('../img/ml_course.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -178,7 +192,11 @@ a {
         width: 100%;
     }
 
-    .camp_autumn_image .box-left {
+    .start_course_image .box-left {
+        background: grey;
+    }
+
+    .ml_course_image .box-left {
         background: grey;
     }
 
@@ -232,7 +250,8 @@ a {
     }
 
     .camp_winter_image .box-left,
-    .camp_autumn_image .box-left {
+    .ml_course_image .box-left,
+    .start_course_image .box-left {
         background: none;
     }
 }
