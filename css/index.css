@@ -197,7 +197,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    h1{
+    h1 {
         text-align: center;
     }
 
@@ -252,5 +252,9 @@ a {
     .ml_course_image .box-left,
     .start_course_image .box-left {
         background: none;
+    }
+
+    #spec_fix {
+        padding-top: 100px;
     }
 }
