@@ -79,11 +79,11 @@ p {
 }
 
 .start_course_image .notification {
-    background-color: grey;
+    background-color: rgb(67, 180, 152);
 }
 
 .ml_course_image .notification {
-    background-color: grey;
+    background-color: #613D8D;
 }
 
 /*#613D8D*/
