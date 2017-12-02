@@ -86,7 +86,6 @@ p {
     background-color: #613D8D;
 }
 
-
 .start_course_image:hover .see-more {
     color: rgb(67, 180, 152);
 }
@@ -198,6 +197,14 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+    h1{
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
     .notification {
         display: block;
     }
