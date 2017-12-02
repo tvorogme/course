@@ -86,17 +86,9 @@ p {
     background-color: #613D8D;
 }
 
-/*#613D8D*/
-.camp_winter_image .notification {
-    background: rgb(67, 180, 152);
-}
-
-.camp_winter_image:hover .see-more {
-    color: rgb(67, 180, 152);
-}
 
 .start_course_image:hover .see-more {
-    color: #613D8D;
+    color: rgb(67, 180, 152);
 }
 
 .ml_course_image:hover .see-more {
@@ -193,11 +185,11 @@ a {
     }
 
     .start_course_image .box-left {
-        background: grey;
+        background: rgb(67, 180, 152);
     }
 
     .ml_course_image .box-left {
-        background: grey;
+        background: #613D8D;
     }
 
     .camp_winter_image .box-left {
